@@ -2,7 +2,13 @@
 	"name": "phocus",
 	"type": "dark",
 	"colors": {
+		"foreground": "#FFFFFFDC",
+		"focusBorder": "#6940E3",
 		"activityBar.background": "#1E1E20",
+		"activityBar.activeBorder": "#6940E3",
+		"activityBar.dropBorder": "#ffffff3d",
+		"activityBar.inactiveForeground": "#ffffff3d",
+
 		"sideBar.background": "#0B0A0B",
 		"statusBar.background": "#0B0A0B",
 		"editor.background": "#141415",
@@ -11,9 +17,6 @@
 		"tab.inactiveBackground": "#0B0A0B",
 		"tab.border": "#141415",
 		"tab.hoverBackground": "#ffffff0f",
-		"activityBar.activeBackground": "#6940E3",
-		"activityBar.activeBorder": "#00000000",
-		"activityBar.inactiveForeground": "#ffffff3d",
 	},
 	"tokenColors": [
 		{
