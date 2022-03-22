@@ -4,13 +4,30 @@
 	"colors": {
 		"foreground": "#FFFFFFDC",
 		"focusBorder": "#6940E3",
+
 		"activityBar.background": "#1E1E20",
 		"activityBar.activeBorder": "#6940E3",
 		"activityBar.dropBorder": "#ffffff3d",
 		"activityBar.inactiveForeground": "#ffffff3d",
+		"statusBar.background": "#0B0A0B",
+
+		"statusBarItem.remoteBackground": "#6940E3",
+		"statusBarItem.hoverBackground": "#ffffff0f",
+		"statusBarItem.warningBackground": "#EF9C57",
+		"statusBarItem.errorBackground": "#DA5858",
 
 		"sideBar.background": "#0B0A0B",
-		"statusBar.background": "#0B0A0B",
+		"sideBarTitle.foreground": "#ffffff3d",
+		"sideBar.border": "#1E1E20",
+
+		"list.activeSelectionBackground": "#6940E3",
+		"list.inactiveSelectionBackground": "#ffffff0f",
+		"list.dropBackground": "#ffffff0f",
+		"list.focusBackground": "#ffffff0f",
+		"list.focusOutline": "#ffffff0f",
+		"list.hoverBackground": "#ffffff0f",
+		"tree.indentGuidesStroke": "#ffffff3d",
+
 		"editor.background": "#141415",
 		"editorGroupHeader.tabsBackground": "#0B0A0B",
 		"tab.activeBackground": "#141415",
