@@ -5,6 +5,10 @@
 		"foreground": "#FFFFFFDC",
 		"focusBorder": "#6940E3",
 
+		"textLink.foreground": "#43D665",
+		"textLink.activeForeground": "#67E985",
+		"progressBar.background": "#43D665",
+
 		"activityBar.background": "#1E1E20",
 		"activityBar.activeBorder": "#6940E3",
 		"activityBar.dropBorder": "#ffffff3d",
@@ -15,6 +19,16 @@
 		"statusBarItem.hoverBackground": "#ffffff0f",
 		"statusBarItem.warningBackground": "#EF9C57",
 		"statusBarItem.errorBackground": "#DA5858",
+		"statusBar.noFolderBackground": "#6940E3",
+
+		"notifications.background": "#1E1E20",
+		"notificationCenterHeader.background": "#28282A",
+		"notificationsErrorIcon.foreground": "#DA5858",
+		"notificationsWarningIcon.foreground": "#EF9C57",
+		"notificationsInfoIcon.foreground": "#5C8AE6",
+
+		"editorWidget.background": "#1E1E20",
+		"editorWidget.border": "#ffffff0f",
 
 		"sideBar.background": "#0B0A0B",
 		"sideBarTitle.foreground": "#ffffff3d",
@@ -46,6 +60,19 @@
 		"terminal.ansiBrightBlue": "#7BA5F9",
 		"terminal.ansiMagenta": "#6940E3",
 		"terminal.ansiBrightMagenta": "#7E54FC",
+
+		"input.background": "#ffffff0f",
+		"input.border": "#ffffff0f",
+		"dropdown.background": "#ffffff0f",
+		"dropdown.listBackground": "#28282A",
+		"dropdown.border": "#ffffff0f",
+		"checkbox.background": "#0B0A0B",
+		"checkbox.border": "#ffffff0f",
+		"button.background": "#ffffff0f",
+		"button.hoverBackground": "#6940E3",
+
+		"breadcrumbPicker.background": "#1E1E20",
+		"scrollbar.shadow": "#00000000",
 
 		"editor.background": "#141415",
 		"editorGroupHeader.tabsBackground": "#0B0A0B",
