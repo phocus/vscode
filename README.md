@@ -3,6 +3,11 @@ This is an opinionated vscode implementation of the [phocus color scheme](https:
 
 ![screenshot](assets/screenshot.png)
 
+## Install
+To install this extension, open vscode, press `Ctrl+P` and enter `ext install phisch.phocus-vscode`. This will install the latest published extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=phisch.phocus-vscode).
+
+Make sure to give it a rating so other people can discover it more easily.
+
 ## Development
 Clone the repository, open it in vscode, and start a debug session:
 ```bash
