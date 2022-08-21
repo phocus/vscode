@@ -31,4 +31,4 @@ jobs:
           release_name: ${{ github.ref }}
 
       - name: Publish to Marketplace
-        run: npm publish -- -p ${{ secrets.VSCE_PAT }}
+        run: npm run publish -- -p ${{ secrets.VSCE_PAT }}
