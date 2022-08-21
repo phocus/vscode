@@ -1,6 +1,10 @@
 # phocus vscode theme
 This is an opinionated vscode implementation of the [phocus color scheme](https://phocus.github.io/).
 
+![phocus vscode screenshot](screenshot.svg)
+
+The above demo might not be 100% accurate, but it's a SVG, so it looks crisp 🤌
+
 ## Development
 Clone the repository, open it in vscode, and start a debug session:
 ```bash
