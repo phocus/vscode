@@ -3,8 +3,10 @@
     "displayName": "phocus-vscode",
     "description": "VSCode implementation of the phocus color scheme.",
     "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://phocus.github.io/",
     "engines": {
-        "vscode": "^1.65.0"
+        "vscode": "^1.70.0"
     },
     "categories": [
         "Themes"

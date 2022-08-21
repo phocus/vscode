@@ -1,9 +1,5 @@
-# Change Log
+# CHANGELOG
 
-All notable changes to the "phocus-vscode" extension will be documented in this file.
+## [1.0.0] - 2022-08-21
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+This is the initial release of the phocus-vscode theme. Comes with semantic syntax highlighting, phocus accents and 2 variants for backgrounds. Enjoy!
