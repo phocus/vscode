@@ -30,4 +30,3 @@ jobs:
           files: phocus-vscode.vsix
           tag_name: ${{ github.ref }}
           body_path: CHANGELOG.md
-          name: ${{ github.tag_name }}
