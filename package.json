@@ -4,6 +4,10 @@
 	"description": "VSCode implementation of the phocus color scheme.",
 	"version": "1.0.0",
 	"license": "MIT",
+	"scripts": {
+		"package": "vsce package",
+		"vsce-publish": "vsce publish"
+	},
 	"homepage": "https://phocus.github.io/",
 	"icon": "assets/phocus.png",
 	"repository": {
@@ -42,5 +46,8 @@
 		"publisherDisplayName": "Philipp Schaffrath",
 		"publisherId": "97a40d22-f5b6-46f1-93d4-6846c9de7c83",
 		"isPreReleaseVersion": false
+	},
+	"devDependencies": {
+		"vsce": "^2.10.2"
 	}
 }
