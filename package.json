@@ -5,6 +5,14 @@
     "version": "1.0.0",
     "license": "MIT",
     "homepage": "https://phocus.github.io/",
+    "icon": "assets/phocus.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phocus/vscode"
+    },
+    "bugs": {
+		"url": "https://github.com/phocus/vscode/issues"
+	},
     "engines": {
         "vscode": "^1.70.0"
     },
