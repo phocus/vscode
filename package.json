@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"package": "vsce package",
-		"vsce-publish": "vsce publish"
+		"publish": "vsce publish"
 	},
 	"homepage": "https://phocus.github.io/",
 	"icon": "assets/phocus.png",
