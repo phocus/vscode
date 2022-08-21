@@ -21,12 +21,12 @@ jobs:
         run: npm ci
 
       - name: Package vscode extension
-        run: npm run package -- -o dist/phocus-vscode.vsix
+        run: npm run package -- -o phocus-vscode.vsix
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/phocus-vscode.vsix
+          files: phocus-vscode.vsix
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
 
