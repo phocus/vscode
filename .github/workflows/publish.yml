@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - uses: actions/setup-node@v3
         with:
@@ -21,4 +21,7 @@ jobs:
         run: npm ci
 
       - name: Publish to Marketplace
-        run: npm run publish -- -p ${{ secrets.VSCE_PAT }}
+        run: npm run publish-vsce -- -p ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to open-vsx.org
+        run: npm run publish-ovsx -- -p ${{ secrets.OVSX_PAT }}
