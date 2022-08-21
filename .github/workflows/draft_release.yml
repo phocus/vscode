@@ -1,4 +1,4 @@
-name: Release and Publish
+name: Draft GitHub Release
 
 on:
   push:
@@ -23,12 +23,10 @@ jobs:
       - name: Package vscode extension
         run: npm run package -- -o phocus-vscode.vsix
 
-      - name: Create GitHub Release
+      - name: Draft GitHub Release
         uses: softprops/action-gh-release@v1
         with:
+          draft: true
           files: phocus-vscode.vsix
           tag_name: ${{ github.ref }}
-          release_name: ${{ github.ref }}
-
-      - name: Publish to Marketplace
-        run: npm run publish -- -p ${{ secrets.VSCE_PAT }}
+          release_name: ${{ github.ref_name }}
