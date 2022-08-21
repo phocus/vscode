@@ -1,8 +1,8 @@
 {
     "name": "phocus-vscode",
     "displayName": "phocus-vscode",
-    "description": "",
-    "version": "0.0.1",
+    "description": "VSCode implementation of the phocus color scheme.",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.65.0"
     },
@@ -15,6 +15,11 @@
                 "label": "phocus",
                 "uiTheme": "vs-dark",
                 "path": "./themes/phocus-color-theme.json"
+            },
+            {
+                "label": "phocus-variant",
+                "uiTheme": "vs-dark",
+                "path": "./themes/phocus-variant-color-theme.json"
             }
         ]
     }
