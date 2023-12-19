@@ -2,7 +2,7 @@
   "name": "phocus-vscode",
   "displayName": "Phocus Theme",
   "description": "VSCode implementation of the phocus color scheme.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "package": "vsce package",
@@ -30,11 +30,6 @@
         "label": "phocus",
         "uiTheme": "vs-dark",
         "path": "./themes/phocus-color-theme.json"
-      },
-      {
-        "label": "phocus-variant",
-        "uiTheme": "vs-dark",
-        "path": "./themes/phocus-variant-color-theme.json"
       }
     ]
   },
